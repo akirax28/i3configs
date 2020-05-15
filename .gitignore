@@ -1,6 +1,7 @@
 *
+/*
 !.vimrc
-!.config/
+!/home/akirax/.config/*
 !.Xresources
-!.i3/
+!/home/akirax/.i3/*
 !.gitignore
