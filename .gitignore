@@ -1,7 +1,7 @@
 *
-/*
-!.vimrc
-!.config/*
-!.Xresources
-!.i3/*
-!.gitignore
+#/*
+#!.vimrc
+#!.config/*
+#!.Xresources
+#!.i3/*
+#!.gitignore
