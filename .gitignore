@@ -1,8 +1,8 @@
 *
 /*
 !.vimrc
-!.config/*
+!.config/
 !.Xresources
-!.i3/*
+!.i3/
 !.gitignore
 !.tmux.conf
