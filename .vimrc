@@ -14,6 +14,8 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+hi SpellBad cterm=underline ctermfg=red
+hi Visual term=reverse cterm=reverse guibg=Grey
 "
 " Give more space for displaying messages.
 set cmdheight=2
@@ -92,7 +94,24 @@ Plug 'alvan/vim-closetag'
 " Vim plugin, insert or delete brackets, parens, quotes in pair
 Plug 'jiangmiao/auto-pairs'
 
+" Mult cursor
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
+
+
+let g:multi_cursor_use_default_mapping=0
+
+" Default mapping
+let g:multi_cursor_start_word_key      = '<C-n>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = '<leader><C-n>'
+let g:multi_cursor_select_all_key      = '<leader><A-n>'
+let g:multi_cursor_next_key            = '<C-n>'
+let g:multi_cursor_prev_key            = '<C-0>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
+
+
 
 " filenames like *.xml, *.html, *.xhtml, ...
 " These are the file extensions where this plugin is enabled.
